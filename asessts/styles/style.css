@@ -9,3 +9,13 @@ li{
 p{
     font-family: 'Poppins','sans-serif';
 }
+.tomato{
+    box-shadow: 8px 10px 15px #AEC495;
+}
+
+header{
+    border-bottom: 1px solid gray;
+}
+.about{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
