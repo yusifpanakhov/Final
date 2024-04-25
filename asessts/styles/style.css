@@ -9,8 +9,9 @@ li{
 p{
     font-family: 'Poppins','sans-serif';
 }
-.tomato{
+.tomato:hover{
     box-shadow: 8px 10px 15px #AEC495;
+    transition-duration:1s ;
 }
 
 header{
@@ -18,4 +19,9 @@ header{
 }
 .about{
     font-family: "Plus Jakarta Sans", sans-serif;
+}
+.join:hover{
+    background:#FFFFFF;
+    color: #88d622ff;
+    transition-duration: 1s;
 }

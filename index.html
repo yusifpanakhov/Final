@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./asessts/styles/style.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -42,7 +42,9 @@
     <div class="h-[90vh] bg-[#739072] rounded-xl relative top-[-13vh]">
         <p class="text-[58px] text-[#EEEEEE] font-bold ml-[60px] relative top-[55px]">THE BIGGEST <br> DISCOUNT!!</p>
         <p class="w-[650px] ml-[60px] relative top-[50px] text-[#D8D8D8]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores exercitationem maxime iure harum officia reprehenderit ea amet, provident qui beatae dignissimos accusamus cupiditate iusto magnam expedita numquam quos odio soluta.</p>
-        <div class="w-32 rounded-xl ml-[60px] relative top-[80px] cursor-pointer p-4 border-2 border-[#304D30] text-[#DDDDDD]"><p>Shop Now</p></div>
+        <a href="./shop.html">
+        <button class="w-32 rounded-xl ml-[60px] relative top-[80px] cursor-pointer p-4 border-2 border-[#304D30] text-[#DDDDDD]"><p>Shop Now</p></button>
+      </a>
 
         <img src="./asessts/images/tomato.svg" class="bg-[#DDDDDD] tomato relative top-[-40vh] ml-[115vh] p-[65px] rounded-xl" alt="">
         <div class="flex gap-[40px] relative top-[-47vh] ml-[120vh]"><p class="text-[#9E9E9E]">20.45$</p><p>15.00$</p></div>
@@ -63,9 +65,43 @@
 
     <p class="about text-[30px] ml-[95vh] text-[#739072]"><i>About</i></p>
     <p class="about text-[30px] ml-[98vh] relative top-[-10px] text-[#737373]"><i>Us</i></p>
+    
 
 
-    <span class="p-24 border-2"></span>
+
+    <div class="cards">
+    <div class="w-[45vh] h-[30vh] border-2 border-[#737373] mt-[30px] ml-[50px] rounded-2xl">
+      <p class="text-[#739072] text-[80px] ml-[20px] mt-[18px]">100</p>
+      <p class="text-[#737373] relative  ml-[20px] text-[30px]">Our Markets</p>
+      <img src="./asessts/images/market.svg" class="w-8 h-8 relative top-[-40px] ml-[30vh]" alt="">
+    </div>
+
+    <div class="w-[35vh] h-[30vh] border-2 border-[#737373] mt-[30px] relative top-[-34vh] ml-[420px] rounded-2xl">
+      <p class="text-[#739072] text-[80px] ml-[20px] mt-[18px]">30</p>
+      <p class="text-[#737373] relative  ml-[20px] text-[30px]">Cities</p>
+      <img src="./asessts/images/map.svg" class="w-8 h-8 relative top-[-35px] ml-[23vh]" alt="">
+    </div>
+
+    <div class="w-[51vh] h-[30vh] border-2 border-[#737373] mt-[30px] relative top-[-68vh] ml-[700px] rounded-2xl">
+      <p class="text-[#739072] text-[80px] ml-[20px] mt-[18px]">100.000+</p>
+      <p class="text-[#737373] relative  ml-[20px] text-[30px]">Our Products</p>
+      <img src="./asessts/images/basket.svg" class="w-8 h-8 relative top-[-40px] ml-[32vh]" alt="">
+    </div>
+
+    <div class="w-[51vh] h-[30vh] border-2 border-[#737373] mt-[30px] relative top-[-102vh] ml-[1090px] rounded-2xl">
+      <p class="text-[#739072] text-[80px] ml-[20px] mt-[18px]">50.000+</p>
+      <p class="text-[#737373] relative  ml-[20px] text-[30px]">Our Employees</p>
+      <img src="./asessts/images/profile.svg" class="w-8 h-8 relative top-[-40px] ml-[36vh]" alt="">
+    </div>
+  </div>
+
+  <div class="bg-[#05422aff] rounded-2xl p-20 w-[1380px] h-[600px] m-auto relative top-[-600px]">
+    <p class="text-[85px] text-[#FFFFFF] ml-[48vh]">It's not late <br><span class="ml-[-2vh] relative top-[-3vh]"> for <span class=" text-[#88d622ff]"> to join us</span></span></p>
+    <img src="./asessts/images/casier.webp" width="300px" height="400px" class="relative top-[-270px] left-[-120px] rounded-2xl -rotate-6">
+    <img src="./asessts/images/worker.webp" width="400px" height="500px" class="relative top-[-640px] left-[930px] rounded-2xl rotate-6">
+    <p class="text-[#FFFFFF] text-[17px] relative top-[-740px] ml-[420px]">If you want to join us, just send us a mail</p>
+    <button class="bg-[#88d622ff] join p-6 rounded-2xl text-white relative top-[-700px] ml-[480px]"><p>Join to Our Team</p></button>
+  </div>
     
     
 </body>
