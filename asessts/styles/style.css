@@ -25,3 +25,54 @@ header{
     color: #88d622ff;
     transition-duration: 1s;
 }
+footer{
+    border-top: 1px solid #737373;
+}
+label{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.footer-text{
+    text-align-last:center ;
+}
+.footer-box{
+    transition: height 2s;
+}
+.footer-box:hover{
+    height:40vh;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .basket{
+        display: none
+    }
+    .logo{
+        position: relative;
+        left: -30px;
+    }
+    .navigation{
+        position: relative;
+        left: -460px;
+    }
+    .li-5{
+        display: none;
+    }
+    .signup{
+        display: none;
+    }
+    .log-in{
+        display:none
+    }
+    .main-text{
+        position: relative;
+        right:50px;
+    }
+    .secondary-text{
+        position: relative;
+        right: 55px;
+
+    }
+    .shopnow{
+        margin-left: 90px;
+    }
+
+  }
